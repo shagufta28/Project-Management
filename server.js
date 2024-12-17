@@ -10,7 +10,7 @@ app.use(cors());
 
 // OR enable CORS only for a specific origin
 app.use(cors({
-  origin: '*' // Frontend URL
+  origin: 'https://testingassignment.vercel.app' // Frontend URL
 }));
 
 // MongoDB Connection

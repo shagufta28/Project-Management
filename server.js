@@ -10,7 +10,7 @@ app.use(cors());
 
 // OR enable CORS only for a specific origin
 app.use(cors({
-  origin: 'http://localhost:5173' // Frontend URL
+  origin: '*' // Frontend URL
 }));
 
 // MongoDB Connection
